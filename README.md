@@ -21,8 +21,7 @@ Both embeddings are L2-normalized. For a batch of paired images and captions,
 their cosine similarities form a square matrix:
 
 $$
-s_{ij}
-=
+s_{ij} =
 \exp(\alpha)
 \frac{f_{\mathrm{image}}(x_i)}{\lVert f_{\mathrm{image}}(x_i)\rVert}
 \cdot
